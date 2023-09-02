@@ -28,6 +28,17 @@
 .discover__form {
 }
 .discover__picture {
+  position: relative;
 }
-.discover__pictire-img {
+
+.discover__picture-hint {
+    position: absolute;
+    left: 40px;
+    top: 90px;
+}
+
+.discover__picture-scroll {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
 }
