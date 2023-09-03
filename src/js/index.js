@@ -1,10 +1,15 @@
 import autoCompleteLocation from "./modules/autoCompliteLocation";
 import datePicker from "./modules/datePicker";
-import swiper from "./modules/swiper";
+import scrollRevealFunc from "./modules/scrollReveal";
+import swiperFunc from "./modules/swiper";
+
 
 autoCompleteLocation();
 datePicker();
-swiper();
+swiperFunc();
+
+scrollRevealFunc();
+
 
 
 // import mobileNav from './modules/mobile-nav.js';

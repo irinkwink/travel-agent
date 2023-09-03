@@ -3,7 +3,7 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-function swiper() {
+function swiperFunc() {
   const swiper = new Swiper('.swiper', {
     modules: [Navigation],
     slidesPerView: 4,
@@ -15,4 +15,4 @@ function swiper() {
   });
 }
 
-export default swiper;
+export default swiperFunc;
