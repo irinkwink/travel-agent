@@ -1,0 +1,51 @@
+.popular {
+  padding: 60px 0;
+}
+
+.popular__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  margin-bottom: 32px;
+}
+
+.popular__title {
+  display: grid;
+  gap: 16px;
+}
+
+
+.popular__controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.btn__controls {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  color: red;
+
+  // background-color: transparent;
+  // background-image: url('./../img/icons/arrow.svg');
+  // background-position: center center; //x y
+  // background-size: 24px;
+  // background-repeat: no-repeat;
+  
+  border-radius: 50px;
+  border: 1px solid var(--muted);
+
+  &::after {
+    content: url('./../img/icons/arrow.svg');
+    color: red;
+
+  }
+}
+
+.active-btn {
+  color: var(--pagebg);
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+}
