@@ -1,21 +1,10 @@
 import autoCompleteLocation from "./modules/autoCompliteLocation";
 import datePicker from "./modules/datePicker";
+import swiper from "./modules/swiper";
 
 autoCompleteLocation();
 datePicker();
-
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
-
-const swiper = new Swiper('.swiper', {
-  slidesPerView: 4,
-  spaceBetween: 32,
-  navigation: {
-    nextEl: '#sliderNext',
-    prevEl: '#sliderPrev',
-  },
-});
-
+swiper();
 
 
 // import mobileNav from './modules/mobile-nav.js';
